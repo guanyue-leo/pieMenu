@@ -1,5 +1,5 @@
 # pieMenu
-A  Configured pie menu powered by React. Part of jihuatong
+A configured pie menu powered by React. Part of jihuatong
 
 ![sketch](sketchNow.jpg)
 
