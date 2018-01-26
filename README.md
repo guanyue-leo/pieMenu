@@ -8,8 +8,9 @@ A configured pie menu powered by React. Part of jihuatong
  npm install
  npm run dev
 ```
+or open /public/index.html
 
-Update state.options in /src/component/PieMenu
+Then update state.options in /src/component/PieMenu
 
 If you like it,please
 # Star me
