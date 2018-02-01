@@ -55,8 +55,8 @@ class Sector extends Component {
         };
 
         return (
-            <div className={style['sector']+' primary'} style={sectorStyle}>
-                <div className={style['label']} style={labelStyle}>
+            <div className={style['sector']+' primary'} style={sectorStyle} onMouseUp={this.props.onMouseUp} onClick={this.props.onClick}>
+                <div className={style['label']} style={labelStyle} onDragStart={(e)=>{e.preventDefault();return false}}>
                     {this.props.label}
                 </div>
                 <div className={style['colorDiv']} style={colorDivStyle}/>

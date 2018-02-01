@@ -1,10 +1,13 @@
 .menu{
-    position: absolute;
-    left: 50%;
-    top: 50%;
+    position: fixed;
     border-radius: 50%;
     overflow: hidden;
     z-index: 10;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .menuAfter{
     display:block;
@@ -14,10 +17,18 @@
     border-radius: 50%;
     z-index:10;
     color: transparent;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.hull{
+    position: relative;
+    width: fit-content;
 }
 .child{
-    position: relative;
-    width: min-content;
+    user-select: none;
 }
 .inCircle{
     position: absolute;
