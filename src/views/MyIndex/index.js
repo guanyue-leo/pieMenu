@@ -64,9 +64,9 @@ class MyIndex extends Component {
         return (
             <div style={this.props.isPC?{width: 760,margin: '0 auto',textAlign: 'center'}:{width: '90%',margin: '0 auto',padding: '20px 0'}}>
                 <Radio.Group value={this.state.type} onChange={this.typeChange} style={{margin: '50px auto'}}>
-                    <Radio.Button key={'click'} value={'click'}>单击</Radio.Button>
-                    <Radio.Button key={'contextMenu'} value={'contextMenu'}>右键</Radio.Button>
-                    <Radio.Button key={'hold'} value={'hold'}>左键拖动</Radio.Button>
+                    <Radio.Button key={'click'} value={'click'}>单击  Click</Radio.Button>
+                    <Radio.Button key={'contextMenu'} value={'contextMenu'}>右键  Right click</Radio.Button>
+                    <Radio.Button key={'hold'} value={'hold'}>左键拖动  drag</Radio.Button>
                 </Radio.Group>
                 <div style={{width: 700, margin: '0 auto'}}>
                     {
