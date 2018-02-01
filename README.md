@@ -1,7 +1,7 @@
 # pieMenu
 A configured pie menu powered by React. Part of jihuatong
 
-![sketch](sketchNow.jpg)
+![sketch](pieMenu2.0.jpg)
 
 # Start
 ```shell

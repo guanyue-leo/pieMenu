@@ -35,8 +35,8 @@ class MyFooter extends Component {
     render() {
         return (
             <div>
-                <Row style={{textAlign: 'center'}}><a href="https://github.com/guanyue-leo/pieMenu">关于我</a> | 友情链接：<a href="http://react-china.org/" target="_blank">React</a><a style={{marginLeft: 10}} href="https://ant.design/index-cn" target="_blank">Ant design</a></Row>
-                <p style={{textAlign: 'center'}}>Copyright ©2017 keepsolo.com Powered By React Version 1.0.0 </p>
+                <Row style={{textAlign: 'center'}}><a href="https://github.com/guanyue-leo/pieMenu">GitHub</a> | 友情链接：<a href="http://react-china.org/" target="_blank">React</a><a style={{marginLeft: 10}} href="https://ant.design/index-cn" target="_blank">Ant design</a></Row>
+                {/*<p style={{textAlign: 'center'}}>Copyright ©2017 keepsolo.com Powered By React Version 1.0.0 </p>*/}
             </div>
         );
     }
