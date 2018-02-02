@@ -2,7 +2,7 @@
 A configured pie menu powered by React. Part of jihuatong
 
 ![sketch](pieMenu2.0.jpg)
-
+[demo](http://keepsolo.com/demo/pieMenu)
 # Start
 ```shell
  npm install
